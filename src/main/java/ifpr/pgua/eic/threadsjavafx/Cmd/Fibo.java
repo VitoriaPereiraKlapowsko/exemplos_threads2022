@@ -15,6 +15,7 @@ public class Fibo implements Runnable {
     }
 
     private long f(long n){
+        System.out.print(".");
         if( n < 2){
             return 1;
         }else{
